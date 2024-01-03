@@ -4,6 +4,7 @@ from datetime import datetime
 
 
 # Create your models here.
+
 class Plan(models.Model):
     type = models.CharField(max_length = 200, null=True, blank=True)
     price = models.DecimalField(max_digits=7, decimal_places=2, null=True, blank=True)
@@ -29,7 +30,8 @@ class Subscription(models.Model):
     class Meta:
         get_latest_by = ['createdAt']
 
-class RealData(models.Model):
+
+class DummyData(models.Model):
     year = models.CharField(max_length=200)
     month_no = models.IntegerField()
     quarter = models.CharField(max_length=200)

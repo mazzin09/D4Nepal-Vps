@@ -12,4 +12,5 @@ urlpatterns = [
     path('subscriptions-create/', views.createSubscription, name="subscription-create"),
     path('subscription/index', views.getSubscriptions, name="subscriptions"),
     path('subscription/<str:pk>', views.getSubscription, name="subscription"),
+
 ]
