@@ -127,11 +127,11 @@ WSGI_APPLICATION = 'd4nepalproj.wsgi.application'
 #     }
 # }
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.mysql",
-        "OPTIONS": {
-            "read_default_file": "/d4Nepal/my.cnf",
-        },
+    'default': {
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'd4nepal',
+        'USER': 'root',
+        'PASSWORD': '',
     }
 }
 
