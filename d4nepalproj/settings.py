@@ -129,7 +129,7 @@ WSGI_APPLICATION = 'd4nepalproj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'd4nepal',
+        'NAME': 'd4nepal1',
         'USER': 'root',
         'PASSWORD': '',
     }
